@@ -9,7 +9,7 @@ interface ElemProps{
 function Elem({elem, index}:ElemProps) {
   return (
     <div className='elem'>
-        <button onClick={()=>kivalaszt()}>1</button>
+        <button onClick={()=>kivalaszt(elem, index)}>0</button>
     </div>
   )
 }

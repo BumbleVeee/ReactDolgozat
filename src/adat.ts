@@ -1,72 +1,72 @@
 
 export interface SzamokTipus{
     id: number,
-    hely: string
+    hely: number
 }
 
 export const SZAMOKLISTA:SzamokTipus[]= [
     {
         id: 1,
-        hely: " "
+        hely: 1
     },
     {
         id:2,
-        hely: " "
+        hely: 3
     },
     {
         id:3,
-        hely: " "
+        hely: 2
     },
     {
         id:4,
-        hely: " "
+        hely: 4
     },
     {
         id:5,
-        hely: " "
+        hely: 5
     },
     {
         id:6,
-        hely: " "
+        hely: 8
     },
     {
         id:7,
-        hely: " "
+        hely: 6
     },
     {
         id:8,
-        hely: " "
+        hely: 7
     },
     {
         id:9,
-        hely: " "
+        hely: 0
     },
     {
         id:10,
-        hely: " "
+        hely: 9
     },
     {
         id:11,
-        hely: " "
+        hely: 10
     },
     {
         id:12,
-        hely: " "
+        hely: 11
     },
     {
         id:13,
-        hely: " "
+        hely: 12
     },
     {
         id:14,
-        hely: " "
+        hely: 13
     },
     {
         id:15,
-        hely: " "
+        hely: 14
     },
     {
         id:16,
-        hely: " "
+        hely: 15
     }
 ]

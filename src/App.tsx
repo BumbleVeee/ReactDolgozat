@@ -7,7 +7,7 @@ function App() {
   const [lista]=useState<SzamokTipus[]>(SZAMOKLISTA)
   function kivalaszt(index:number) {
     const szamCsusztatas:SzamokTipus[]=[...lista]
-    szamCsusztatas[index].hely = hely
+    szamCsusztatas[index].hely = SZAMOKLISTA[0].hely
     console.log(index)
   }
 

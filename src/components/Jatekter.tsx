@@ -4,7 +4,7 @@ import Elem from './Elem'
 
 interface JatekterProps{
     lista: SzamokTipus[],
-    kivalaszt: ()=> void
+    kivalaszt: (index:number)=> void
 }
 
 function Jatekter({lista, kivalaszt}: JatekterProps){

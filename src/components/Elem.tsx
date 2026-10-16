@@ -4,14 +4,14 @@ import type { SzamokTipus } from '../adat'
 interface ElemProps{
     elem: SzamokTipus,
     index: number
-    kivalaszt: ()=> void
+    kivalaszt: (index:number)=> void
 }
 
-function Elem({elem, index}:ElemProps) {
+function Elem({elem, index, kivalaszt}:ElemProps) {
   return (
     <div className='elem'>
-        console.log(index);
-        <button onClick={()=>kivalaszt}>{elem.hely}</button>
+        
+        <button onClick={()=>kivalaszt(index)}>{elem.hely}</button>
     </div>
   )
 }

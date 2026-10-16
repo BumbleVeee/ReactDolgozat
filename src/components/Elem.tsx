@@ -1,4 +1,4 @@
-import React from 'react'
+import './Elem.css'
 import type { SzamokTipus } from '../adat'
 
 interface ElemProps{

@@ -1,4 +1,4 @@
-
+import './Jatekter.css'
 import type { SzamokTipus } from '../adat'
 import Elem from './Elem'
 
@@ -9,7 +9,7 @@ interface JatekterProps{
 
 function Jatekter({lista, kivalaszt}: JatekterProps){
   return (
-    <div>
+    <div className='jatekter'>
         {
             lista.map((elem, index)=>{
                 return(<Elem elem={elem} kivalaszt={kivalaszt}
